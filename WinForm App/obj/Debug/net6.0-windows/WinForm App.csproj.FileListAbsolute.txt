@@ -1,0 +1,34 @@
+D:\WinForm App\bin\Debug\net6.0-windows\WinForm App.exe
+D:\WinForm App\bin\Debug\net6.0-windows\WinForm App.deps.json
+D:\WinForm App\bin\Debug\net6.0-windows\WinForm App.runtimeconfig.json
+D:\WinForm App\bin\Debug\net6.0-windows\WinForm App.dll
+D:\WinForm App\bin\Debug\net6.0-windows\WinForm App.pdb
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.csproj.AssemblyReference.cache
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm_App.Form1.resources
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.csproj.GenerateResource.cache
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.GeneratedMSBuildEditorConfig.editorconfig
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.AssemblyInfoInputs.cache
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.AssemblyInfo.cs
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.csproj.CoreCompileInputs.cache
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.dll
+D:\WinForm App\obj\Debug\net6.0-windows\refint\WinForm App.dll
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.pdb
+D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.genruntimeconfig.cache
+D:\WinForm App\obj\Debug\net6.0-windows\ref\WinForm App.dll
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\bin\Debug\net6.0-windows\WinForm App.exe
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\bin\Debug\net6.0-windows\WinForm App.deps.json
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\bin\Debug\net6.0-windows\WinForm App.runtimeconfig.json
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\bin\Debug\net6.0-windows\WinForm App.dll
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\bin\Debug\net6.0-windows\WinForm App.pdb
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.csproj.AssemblyReference.cache
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm_App.Form1.resources
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.csproj.GenerateResource.cache
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.AssemblyInfoInputs.cache
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.AssemblyInfo.cs
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.dll
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\refint\WinForm App.dll
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.pdb
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.genruntimeconfig.cache
+C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\ref\WinForm App.dll
