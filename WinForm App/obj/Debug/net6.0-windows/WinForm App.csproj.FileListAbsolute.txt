@@ -15,6 +15,7 @@ D:\WinForm App\obj\Debug\net6.0-windows\refint\WinForm App.dll
 D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.pdb
 D:\WinForm App\obj\Debug\net6.0-windows\WinForm App.genruntimeconfig.cache
 D:\WinForm App\obj\Debug\net6.0-windows\ref\WinForm App.dll
+<<<<<<< HEAD
 C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\bin\Debug\net6.0-windows\WinForm App.exe
 C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\bin\Debug\net6.0-windows\WinForm App.deps.json
 C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\bin\Debug\net6.0-windows\WinForm App.runtimeconfig.json
@@ -32,3 +33,5 @@ C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\ref
 C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.pdb
 C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\WinForm App.genruntimeconfig.cache
 C:\Users\DELL\Source\Repos\Windows-Form\WinForm App\obj\Debug\net6.0-windows\ref\WinForm App.dll
+=======
+>>>>>>> fa71dd94c9fd7281681ce5b282718dac7525172f

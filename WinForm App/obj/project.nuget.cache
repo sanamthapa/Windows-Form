@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "20XFA9GE7Un8tSWJEggl1e22glac50SAXwBqAefMatNvBdBsCAdqBLHAH2nDedegruzvVL3Do0BZ6TBxQvEhWA==",
+  "dgSpecHash": "QGFfGJauSRUKkRNIkLXFG//YIvL4STaJ6sM2HxwATkLQZc3OuuPoBhcYuBJsqCzg+h3kALEzUTktiSP76Ky+YQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Source\\Repos\\Windows-Form\\WinForm App\\WinForm App.csproj",
   "expectedPackageFiles": [
@@ -14,5 +14,12 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\DELL\\Source\\Repos\\Windows-Form\\WinForm App\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

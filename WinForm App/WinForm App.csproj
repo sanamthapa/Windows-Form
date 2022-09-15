@@ -9,8 +9,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
+=======
+>>>>>>> fa71dd94c9fd7281681ce5b282718dac7525172f
 </Project>
