@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Source\\Repos\\Windows-Form\\WinFormApp2\\WinFormApp2.csproj": {}
+    "D:\\WindowsFormApp\\WinFormApp2\\WinFormApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Source\\Repos\\Windows-Form\\WinFormApp2\\WinFormApp2.csproj": {
+    "D:\\WindowsFormApp\\WinFormApp2\\WinFormApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\Windows-Form\\WinFormApp2\\WinFormApp2.csproj",
+        "projectUniqueName": "D:\\WindowsFormApp\\WinFormApp2\\WinFormApp2.csproj",
         "projectName": "WinFormApp2",
-        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\Windows-Form\\WinFormApp2\\WinFormApp2.csproj",
+        "projectPath": "D:\\WindowsFormApp\\WinFormApp2\\WinFormApp2.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\Windows-Form\\WinFormApp2\\obj\\",
+        "outputPath": "D:\\WindowsFormApp\\WinFormApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

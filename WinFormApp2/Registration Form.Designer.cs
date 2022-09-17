@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rbtFemale = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtField = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.rbtMale = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -57,21 +57,21 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txtAddress);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.rbtFemale);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.txtId);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtField);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtPhone);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.txtName);
+            this.groupBox1.Controls.Add(this.rbtMale);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
@@ -81,13 +81,13 @@
             this.groupBox1.Text = "Registration";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // textBox5
+            // txtAddress
             // 
-            this.textBox5.Location = new System.Drawing.Point(90, 230);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(419, 27);
-            this.textBox5.TabIndex = 16;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.txtAddress.Location = new System.Drawing.Point(90, 230);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(419, 27);
+            this.txtAddress.TabIndex = 16;
+            this.txtAddress.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label7
             // 
@@ -99,16 +99,16 @@
             this.label7.Text = "Address:";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // radioButton2
+            // rbtFemale
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(496, 172);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(78, 24);
-            this.radioButton2.TabIndex = 14;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbtFemale.AutoSize = true;
+            this.rbtFemale.Location = new System.Drawing.Point(496, 172);
+            this.rbtFemale.Name = "rbtFemale";
+            this.rbtFemale.Size = new System.Drawing.Size(78, 24);
+            this.rbtFemale.TabIndex = 14;
+            this.rbtFemale.TabStop = true;
+            this.rbtFemale.Text = "Female";
+            this.rbtFemale.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -119,12 +119,12 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Gender:";
             // 
-            // textBox6
+            // txtId
             // 
-            this.textBox6.Location = new System.Drawing.Point(90, 166);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(125, 27);
-            this.textBox6.TabIndex = 12;
+            this.txtId.Location = new System.Drawing.Point(90, 166);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(125, 27);
+            this.txtId.TabIndex = 12;
             // 
             // label6
             // 
@@ -135,12 +135,13 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "ID:";
             // 
-            // textBox4
+            // txtEmail
             // 
-            this.textBox4.Location = new System.Drawing.Point(458, 108);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(190, 27);
-            this.textBox4.TabIndex = 10;
+            this.txtEmail.Location = new System.Drawing.Point(458, 108);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(190, 27);
+            this.txtEmail.TabIndex = 10;
+            this.txtEmail.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label4
             // 
@@ -152,12 +153,13 @@
             this.label4.Text = "Email:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox3
+            // txtField
             // 
-            this.textBox3.Location = new System.Drawing.Point(90, 105);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(125, 27);
-            this.textBox3.TabIndex = 8;
+            this.txtField.Location = new System.Drawing.Point(90, 105);
+            this.txtField.Name = "txtField";
+            this.txtField.Size = new System.Drawing.Size(125, 27);
+            this.txtField.TabIndex = 8;
+            this.txtField.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label3
             // 
@@ -168,12 +170,13 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Field:";
             // 
-            // textBox2
+            // txtPhone
             // 
-            this.textBox2.Location = new System.Drawing.Point(458, 50);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(190, 27);
-            this.textBox2.TabIndex = 6;
+            this.txtPhone.Location = new System.Drawing.Point(458, 50);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(190, 27);
+            this.txtPhone.TabIndex = 6;
+            this.txtPhone.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label2
             // 
@@ -194,25 +197,25 @@
             this.dataGridView1.Size = new System.Drawing.Size(670, 246);
             this.dataGridView1.TabIndex = 4;
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(90, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 27);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtName.Location = new System.Drawing.Point(90, 47);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(185, 27);
+            this.txtName.TabIndex = 2;
+            this.txtName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // radioButton1
+            // rbtMale
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(384, 172);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(63, 24);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.rbtMale.AutoSize = true;
+            this.rbtMale.Location = new System.Drawing.Point(384, 172);
+            this.rbtMale.Name = "rbtMale";
+            this.rbtMale.Size = new System.Drawing.Size(63, 24);
+            this.rbtMale.TabIndex = 1;
+            this.rbtMale.TabStop = true;
+            this.rbtMale.Text = "Male";
+            this.rbtMale.UseVisualStyleBackColor = true;
+            this.rbtMale.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // label1
             // 
@@ -315,20 +318,20 @@
         private Label label1;
         private DataGridView dataGridView1;
         private Button button1;
-        private TextBox textBox1;
-        private RadioButton radioButton1;
-        private TextBox textBox4;
+        private TextBox txtName;
+        private RadioButton rbtMale;
+        private TextBox txtEmail;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox txtField;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox txtPhone;
         private Label label2;
         private Label label5;
-        private TextBox textBox6;
+        private TextBox txtId;
         private Label label6;
-        private TextBox textBox5;
+        private TextBox txtAddress;
         private Label label7;
-        private RadioButton radioButton2;
+        private RadioButton rbtFemale;
         private GroupBox groupBox2;
         private Button button3;
         private Button button2;
