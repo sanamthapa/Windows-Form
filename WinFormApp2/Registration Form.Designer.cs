@@ -32,7 +32,7 @@
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.rbtFemale = new System.Windows.Forms.RadioButton();
-            this.label5 = new System.Windows.Forms.Label();
+            this.txtGender = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -60,7 +60,7 @@
             this.groupBox1.Controls.Add(this.txtAddress);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.rbtFemale);
-            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.txtGender);
             this.groupBox1.Controls.Add(this.txtId);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtEmail);
@@ -110,14 +110,15 @@
             this.rbtFemale.Text = "Female";
             this.rbtFemale.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // txtGender
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(309, 172);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 20);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Gender:";
+            this.txtGender.AutoSize = true;
+            this.txtGender.Location = new System.Drawing.Point(309, 172);
+            this.txtGender.Name = "txtGender";
+            this.txtGender.Size = new System.Drawing.Size(60, 20);
+            this.txtGender.TabIndex = 13;
+            this.txtGender.Text = "Gender:";
+            this.txtGender.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtId
             // 
@@ -142,6 +143,7 @@
             this.txtEmail.Size = new System.Drawing.Size(190, 27);
             this.txtEmail.TabIndex = 10;
             this.txtEmail.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.txtEmail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEmail_KeyPress);
             // 
             // label4
             // 
@@ -173,10 +175,12 @@
             // txtPhone
             // 
             this.txtPhone.Location = new System.Drawing.Point(458, 50);
+            this.txtPhone.MaxLength = 10;
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(190, 27);
             this.txtPhone.TabIndex = 6;
             this.txtPhone.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhone_KeyPress);
             // 
             // label2
             // 
@@ -326,7 +330,7 @@
         private Label label3;
         private TextBox txtPhone;
         private Label label2;
-        private Label label5;
+        private Label txtGender;
         private TextBox txtId;
         private Label label6;
         private TextBox txtAddress;
